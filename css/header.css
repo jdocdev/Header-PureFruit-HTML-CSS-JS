@@ -104,7 +104,7 @@
     cursor: pointer;
 }
 
-.navbar__mobile-menu {
+.navbar__mobile-menu, .navbar__mobile-menu {
     display: none;
 }
 
@@ -181,4 +181,5 @@
     .button-saber-mas {
         margin: 0;
     }
+    
 }
