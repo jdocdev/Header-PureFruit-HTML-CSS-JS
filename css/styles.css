@@ -6,6 +6,7 @@
     --light-purple:#ae40f0;
     --yellow:#ffc800;
     --pink:#fc5185;
+    --light-pink:#ffeffe;
     --green:#00b090;
     --background-gray:#eee;
 }
@@ -34,6 +35,7 @@ a {
     font-size: 1.1rem;
     padding: 10px 20px;
     font-weight: 700;    
+    cursor: pointer;
 }
 
 .button-primary {
@@ -44,4 +46,13 @@ a {
 .button-primary:hover {
     background-color: var(--pink);
     transition: background-color 0.3s;
+}
+
+.input {
+    border: none;
+    font-size: 1.1rem;
+    background-color: var(--white);
+    padding: 10px;
+    outline: none;
+    color: var(--dark-purple);
 }
